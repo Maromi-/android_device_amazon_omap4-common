@@ -89,6 +89,12 @@ PRODUCT_PACKAGES += \
     setup_fs \
     e2fsck
 
+# F2FS
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+
 # Audio Support
 PRODUCT_PACKAGES += \
     libaudioutils \
