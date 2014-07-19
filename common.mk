@@ -85,6 +85,12 @@ PRODUCT_PACKAGES += \
     sdcard \
     setup_fs
 
+# F2FS
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+
 # Audio Support
 PRODUCT_PACKAGES += \
     libaudioutils \
